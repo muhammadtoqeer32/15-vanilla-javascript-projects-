@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #cfead9;
+}
+body {
+  /* height: 100vh; */
+  display: grid;
+  place-items: center;
+
+  /* text-align: center;
+    justify-content: center; */
+}
+.outer_most {
+  text-align: center;
+  text-align: center;
+  /* display: flex;
+    justify-content: center; */
+}
+.counter h2 {
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+}
+.value {
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.decrease_btn {
+    font-size: 40px;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.reset_btn {
+    font-size: 40px;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.Increase_btn {
+    font-size: 40px;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.Increase_btn:hover {
+  color: white;
+  background-color: green;
+
+}
+.decrease_btn:hover {
+  color: white;
+  background-color: yellow;
+
+}
+.reset_btn:hover {
+  color: white;
+  background-color: black;
+
+}

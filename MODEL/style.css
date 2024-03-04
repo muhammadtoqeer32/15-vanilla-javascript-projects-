@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/nav_logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_box{
+   height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnd{
+    margin-top: 190px;
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: cornflowerblue;
+ }
+.btnd:hover{
+    background-color: aqua;
+      cursor: pointer;
+ }
+ .popup {
+    width: 50vh;
+    padding-bottom: 20px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    transition:  0.3s ease-in-out;
+    justify-content: center;
+  }
+  
+.content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  border-radius: 1rem;
+  background: #fff;
+  padding: 1.4rem;
+  z-index: 2;
+  transition: transform 0.4s ease-in-out;
+}
+   .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+} 
+  i {
+    color: black;
+    margin-top: 10px;
+    font-size: 3rem;
+    
+  }
+  .popup {
+    height: 400px;
+    width: 350px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .contant p{
+    padding: 20px 20px;
+    color: black;
+    font-size: 20px;
+  }
+  .popup-content {
+
+    margin-top: 20px;
+  }
+  .active{
+    display: block;
+  }
+  .btn{
+    padding: 20px 15px;
+    background-color: aqua;
+    color: white;
+    border-radius: 40px;
+  
+
+  }

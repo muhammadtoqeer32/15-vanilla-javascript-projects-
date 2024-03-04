@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="form-container">
+        <form action="">
+          <h1>Currency Converter</h1>
+          <div class="amount">
+            <p>Enter a amount</p>
+            <div class="input-box">
+              <input value="100" type="text" />
+            </div>
+            <div class="dropdown">
+              <div class="from">
+                <p>From</p>
+                <div class="select-container">
+                  <img src="https://flagsapi.com/US/flat/64.png" />
+                  <select name="from" id="from">
+                   
+                  </select>
+                </div>
+              </div>
+
+              <img src="exchange.png" alt="" />
+              <div class="to">
+                <p>To</p>
+                <div class="select-container">
+                  <img src="https://flagsapi.com/PK/flat/64.png" />
+                  <select name="to" id="to">
+                   
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="msg">1 USD = 280 PKR</div>
+            <div class="btn">
+              <button>Convert</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
